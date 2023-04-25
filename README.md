@@ -132,9 +132,20 @@ Mockito bietet eine einfache API, um Mock-Objekte zu erstellen und das Verhalten
 
 # AUFGABE 2: AUSGANGSPROJEKT
 
+![TDD-Kino](images/aufgabe2_tdd_kino.jpg)
+
+![TDD-Kino-Test](images/aufgabe2_tdd_kino_test.jpg)
 
 
 
+# AUFGABE 3
+![TDD-Kino_Code](images/aufgabe3_tdd_kino.jpg)
+
+# AUFGABE 4
+
+![TDD-Kino-Kinosaal-Test](images/aufgabe4_tdd_kino_kinosaaltest.jpg)
+
+# AUFGABE 5
 
 
 
