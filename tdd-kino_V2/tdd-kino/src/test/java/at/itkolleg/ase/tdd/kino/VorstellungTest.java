@@ -7,13 +7,6 @@ import org.junit.jupiter.api.Test;
 import java.time.LocalDate;
 import java.util.HashMap;
 import java.util.Map;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-
-import java.time.LocalDate;
-import java.util.HashMap;
-import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -86,8 +79,8 @@ public class VorstellungTest {
         // Test mit unterschiedlichem Saal
         Vorstellung vorstellung3 = new Vorstellung(new KinoSaal("Saal 2", null), Zeitfenster.NACHMITTAG, LocalDate.now(), "Film1", 10.0f);
         assertNotEquals(vorstellung, vorstellung3);
-
-        // Test mit unterschiedlichem Zeitfenster
-        Vorstellung vorstellung4 = new Vorstellung(saal, Zeitfenster.ABEND, LocalDate.now(), "Film1", 10.0f);
+        // Test mit unterschiedlichem Datum
+        Vorstellung vorstellung5 = new Vorstellung(saal, Zeitfenster.NACHMITTAG, LocalDate.now().plusDays(1), "Film1", 10.0f);
+        assertNotEquals(vorstellung, vorstellung5);
     }
 }
